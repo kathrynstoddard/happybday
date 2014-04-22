@@ -1,0 +1,277 @@
+body {
+	font-size: 16px;
+}
+
+h1 {
+	font-family: "Gentium Book Basic", serif;
+	font-weight: normal;
+	font-size: 4em;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #333, 3px 3px 5px #000; 
+
+}
+
+h2 {
+	font-family: "Lato", sans-serif;;
+	font-weight: normal;
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #333, 3px 3px 5px #000; 
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: normal;
+	font-size: 4em;
+	text-align: center;
+	position: relative;
+}
+
+h4 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: normal;
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+}
+
+
+.center {
+	margin: 0 auto;
+}
+
+.content {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+#header {
+	width: 100%;
+	background-color: #3AC88D;
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+
+#nav {
+	width: 410px;
+	float: right;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+#logo a {
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+	padding-left: 5px;
+	color: #fff;
+	font-family: "Gentium Book Basic", serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+#nav li {
+	margin-top: 9px;
+	float: left;
+	padding-left: 21px;
+	display: block;
+}
+
+#nav li a {
+	color: #fff; 
+	opacity: 0.6;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+#nav li a.active {
+	color: #fff;
+	opacity: 1;
+	border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.wishes {
+	/*font-family: "Goudy Bookletter 1911", serif;*/
+	font-weight: normal;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.author_name_black {
+	font-family: 'Lato', sans-serif;
+	margin: 35px 0 0 500px; 
+	color: #333;
+	font-size: 2.5em; 
+	font-weight: bold;
+}
+
+.author_name_orange { 
+	font-family: 'Lato', sans-serif;
+	margin: 35px 0 0 500px; 
+	color: #E6A06F; 
+	font-size: 2.5em; 
+}
+
+
+#wish1, #wish2 {
+	width: 100%;
+}
+
+#wish1 {
+	background: url('../img/nightlights.jpg');
+	color: #333;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#wish2 {
+	background-color: #fff;
+	color: #333;
+	height: 310px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#wish3 {
+	background: url('../img/ocean.jpg');
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#wish4 {
+	background-color: #fff;
+	color: #333;
+	height: 310px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#wish5 {
+	background: url('../img/path.jpg');
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+#logo a {
+	font-size: 1.5em;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+h1 {
+	font-size: 3em;
+
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 3em;
+	margin: 5px 0;
+}
+
+h4 {
+	font-size: 2.5em;
+
+}
+
+.author_name_black {
+	margin: 0 auto;
+	font-size: 2.25em;
+	padding-top: 20px; 
+}
+
+.author_name_orange { 
+	margin: 0 auto; 
+	font-size: 2.25em;
+	padding-top: 20px; 
+}
+
+}
+
+@media (max-width: 480px) {
+#header {
+	height: 100px;
+}
+
+#logo a {
+	font-size: 1.5em;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+h1 {
+	font-size: 2em;
+
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+	margin: 5px 0;
+}
+
+h4 {
+	font-size: 1.5em;
+
+}
+
+.author_name_black {
+	margin: 0 auto;
+	font-size: 1.25em;
+	padding-top: 20px; 
+	color: #fff;
+}
+
+.author_name_orange { 
+	margin: 0 auto; 
+	font-size: 1.25em;
+	padding-top: 20px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
